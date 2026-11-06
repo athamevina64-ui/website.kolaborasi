@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #edf5e9;
+    color: #263b2d;
+    padding: 25px 15px;
+}
+
+/* POSTER UTAMA */
+.poster {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #ffffff, #e8f3e5);
+    border: 3px solid #237442;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(25, 80, 40, 0.15);
+}
+
+/* JUDUL UTAMA */
+.header {
+    text-align: center;
+    background: #d5e9d0;
+    border: 4px solid #176534;
+    border-radius: 60px;
+    padding: 25px 20px;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 38px;
+    color: #14532d;
+    line-height: 1.2;
+}
+
+/* KOTAK PARAGRAF */
+.section {
+    background: #fffef9;
+    border: 3px solid #237442;
+    border-radius: 22px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* JUDUL SETIAP BAGIAN */
+.section h2 {
+    display: table;
+    background: #176534;
+    color: white;
+    font-size: 22px;
+    padding: 9px 20px;
+    border-radius: 30px;
+    margin-top: -38px;
+    margin-bottom: 15px;
+}
+
+/* SUBJUDUL */
+.section h3 {
+    display: table;
+    background: #39834d;
+    color: white;
+    font-size: 17px;
+    padding: 7px 15px;
+    border-radius: 12px;
+    margin: 15px 0 10px;
+}
+
+/* ISI PARAGRAF */
+.section p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #354b3b;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding: 18px;
+    background: #176534;
+    color: white;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* RESPONSIVE HP */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .poster {
+        padding: 15px;
+    }
+
+    .header {
+        padding: 18px 12px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .section {
+        padding: 17px;
+        margin-bottom: 25px;
+    }
+
+    .section h2 {
+        font-size: 18px;
+    }
+
+    .section h3 {
+        font-size: 15px;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
